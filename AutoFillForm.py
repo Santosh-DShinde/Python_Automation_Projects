@@ -65,10 +65,10 @@ def FillForm():
 
     if i == len(Data)-1:
         msg = "All Forms Successfully Submitted"
-        MessageBgColor = 'lightgreen'
+ 
     else:
         msg = "Error while Submitting  the Forms"
-        MessageBgColor = 'red'
+ 
 
     window = Tk()
     window.geometry('300x300')
