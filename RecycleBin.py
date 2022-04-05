@@ -34,7 +34,7 @@ def RemoveDuplicateFiles(Dir_Name=os.getcwd()):
     except Exception as obj:
         print("Exception Occurred : ", obj)
 
-    print(f"{Count} files scanned for Duplicate\n")
+    print(f"Total {Count} Files Scanned\n")
 
 
 def CheckFiles(days=30):
