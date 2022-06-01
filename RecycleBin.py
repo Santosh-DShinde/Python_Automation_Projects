@@ -21,7 +21,6 @@ def RemoveDuplicateFiles(Dir_Name=os.getcwd()):
                         Unique[file_Hash] = File_Name
                     else:
                         if not os.path.exists(os.path.join(os.getcwd(), "RecycleBin")):
-                            print(File_Name)
                             os.mkdir("RecycleBin")
                         else:
                             Rc_File = os.path.join(os.getcwd(), "RecycleBin", File_Name)
